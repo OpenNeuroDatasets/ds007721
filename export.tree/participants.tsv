@@ -1,0 +1,23 @@
+participant_id	age	race	gender	ethnicity	bc_ear	order_beh	order_eeg	tymp_left	tymp_right	left_500	left_1000	left_2000	left_4000	left_8000	right_500	right_1000	right_2000	right_4000	right_8000	bc_500	bc_1000	bc_2000	bc_4000	bc_8000	notes
+sub-01	26	White	Female	Not Hispanic or Latino	Left	Left, AC	Left, AC	Normal	Normal	5	-5	0	0	5	10	0	0	5	15	5	-10	-5	-10	0	Did BEH on another day
+sub-02	21	White,Asian	Female	Not Hispanic or Latino	Right	Right, AC	Right, AC	Normal	Normal	0	0	0	0	10	5	5	-5	0	0	0	0	5	0	-5	Did BEH on another day
+sub-03	24	White	Female	Not Hispanic or Latino	Left		Left, BC	Normal	Normal	15	10	10	10	0	15	10	5	10	-10	15	15	20	-5	0	No BEH. Paused to check impedances, EEG got really noisy at 19:40.
+sub-04	22	White,Black or African American	Female	Not Hispanic or Latino	Right		Right, BC	Normal	Normal	5	5	5	0	5	5	0	0	0	0	5	0	10	-5	0	No BEH. Participant paused with 15 min left in BC so I could adjust bone vibrator (pressure).
+sub-05	24	White	Female	Not Hispanic or Latino	Left	Left, BC	Left, AC	Normal	Normal	15	10	10	5	15	15	10	10	0	15	5	-5	5	-5	5	EEG -- accidentally ran BC first, not AC. [fixed counterbalancing on subsequent participants]
+sub-06	22	Asian	Male	Not Hispanic or Latino	Right	Right, AC	Right, AC	Normal	Normal	10	10	10	15	15	10	10	20	10	10	15	15	15	5	5	
+sub-07	22	White	Female	Not Hispanic or Latino	Left	Left, BC	Left, BC	Normal	Normal	10	10	10	15	10	5	0	0	5	10	-5	-5	0	5	0	
+sub-08	28	White	Female	Not Hispanic or Latino	Right	Right, BC	Right, BC	Normal	Normal	5	5	15	15	5	5	10	5	15	15	5	10	15	10	10	
+sub-09	31	White	A gender that is not exclusively male or female	Not Hispanic or Latino	Right	Right, BC	Right, AC	Normal	Normal	10	5	10	15	15	5	-5	5	-5	5	0	-10	5	-5	-5	EEG -- accidentally ran pABR BC first, not AC [fixed counterbalancing on subsequent participants]
+sub-10	24	Black or African American	Female	Not Hispanic or Latino	Left	Left, AC	Left, AC	Normal	Normal	0	5	5	5	-5	-5	0	0	0	0	-5	0	5	-5	-10	
+sub-11	19	Asian	Female	Not Hispanic or Latino	Left	Left, BC	Left, BC	Normal	Normal	5	10	10	0	15	5	5	10	0	20	0	0	5	5	5	
+sub-12	21	Asian	Female	Not Hispanic or Latino	Right	Right, BC	Right, BC	Normal	Normal	5	10	5	0	-10	10	5	10	15	0	10	0	5	-5	0	At trial 435 for bc, helped relieve pressure by holding oscillator in place but moving band off forehead.
+sub-13	21	Don't wish to say	Female	Not Hispanic or Latino	Left	Left, BC	Left, AC	Normal	Normal	10	5	10	-5	-10	10	0	5	-5	-5	0	-10	5	-10	-10	EEG -- accidentally did BC first, not AC [fixed counterbalancing on subsequent participants]
+sub-14	21	White	Female	Not Hispanic or Latino	Right	Right, AC	Right, AC	Normal	Normal	0	5	10	-5	5	5	5	5	-10	10	0	-10	0	-10	-10	
+sub-15	21	White	Female	Hispanic or Latino	Left	Left, BC		Normal	Normal	5	5	5	5	5	0	5	0	0	5	5	5	5	5	5	AC for left ear not present (insert plug not completely in for duration of test). Cannot use EEG data.
+sub-16	21	White	Female	Not Hispanic or Latino	Right	Right, BC	Right, BC	Normal	Normal	10	5	5	0	-5	10	0	5	-5	0	10	0	5	-5	0	EEG was a little noisy at the beginning, checked impedances around 11am, stable/good.
+sub-17	22	Don't wish to say	Female	Don't wish to say	Left	Left, AC	Left, AC	Normal	Normal	15	5	10	5	-5	15	5	5	10	-5	15	10	15	5	-5	
+sub-18	21	White	Female	Not Hispanic or Latino	Right	Right, AC	Right, AC	Normal	Normal	10	10	10	0	20	5	0	5	0	10	5	0	0	-5	0	
+sub-19	21	White	Female	Not Hispanic or Latino	Left	Left, AC	Left, BC	Normal	Normal	5	-5	5	5	-5	5	5	0	0	0	10	-5	0	0	0	
+sub-20	22	White	Female	Not Hispanic or Latino	Right	Right, AC	Right, BC	Normal	Normal	5	10	0	0	-10	10	5	5	0	0	10	10	10	-10	0	
+sub-21	24	White,Black or African American	Male	Not Hispanic or Latino	Right	Right, AC		Normal	Normal	15	10	0	0	5	10	5	0	-5	10	15	5	0	0	-5	BEH ONLY
+sub-22	23	Black or African American	Female	Not Hispanic or Latino	Left	Left, BC	Left, BC	Normal	Normal	5	0	10	5	-10	5	5	5	5	0	5	5	15	-10	-5	Participant had some wax, but TM could be visualized in both ears.
