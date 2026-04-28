@@ -1,0 +1,96 @@
+{
+    "participant_id": {
+        "Description": "Participant"
+    },
+    "age": {
+        "Description": "Age",
+        "Units": "years"
+    },
+    "race": {
+        "Description": "Race"
+    },
+    "gender": {
+        "Description": "Gender"
+    },
+    "ethnicity": {
+        "Description": "Ethnicity"
+    },
+    "bc_ear": {
+        "Description": "Ear tested with BC"
+    },
+    "order_beh": {
+        "Description": "Order of testing for BEH"
+    },
+    "order_eeg": {
+        "Description": "Order of testing for EEG"
+    },
+    "tymp_left": {
+        "Description": "Tympanogram result for the left ear"
+    },
+    "tymp_right": {
+        "Description": "Tympanogram result for the right ear"
+    },
+    "left_500": {
+        "Description": "air conduction hearing threshold for 500 Hz in the left ear",
+        "Units": "dB HL"
+    },
+    "left_1000": {
+        "Description": "air conduction hearing threshold for 1000 Hz in the left ear",
+        "Units": "dB HL"
+    },
+    "left_2000": {
+        "Description": "air conduction hearing threshold for 2000 Hz in the left ear",
+        "Units": "dB HL"
+    },
+    "left_4000": {
+        "Description": "air conduction hearing threshold for 4000 Hz in the left ear",
+        "Units": "dB HL"
+    },
+    "left_8000": {
+        "Description": "air conduction hearing threshold for 8000 Hz in the left ear",
+        "Units": "dB HL"
+    },
+    "right_500": {
+        "Description": "air conduction hearing threshold for 500 Hz in the right ear",
+        "Units": "dB HL"
+    },
+    "right_1000": {
+        "Description": "air conduction hearing threshold for 1000 Hz in the right ear",
+        "Units": "dB HL"
+    },
+    "right_2000": {
+        "Description": "air conduction hearing threshold for 2000 Hz in the right ear",
+        "Units": "dB HL"
+    },
+    "right_4000": {
+        "Description": "air conduction hearing threshold for 4000 Hz in the right ear",
+        "Units": "dB HL"
+    },
+    "right_8000": {
+        "Description": "air conduction hearing threshold for 8000 Hz in the right ear",
+        "Units": "dB HL"
+    },
+    "bc_500": {
+        "Description": "bone conduction hearing threshold for 500 Hz",
+        "Units": "dB HL"
+    },
+    "bc_1000": {
+        "Description": "bone conduction hearing threshold for 1000 Hz",
+        "Units": "dB HL"
+    },
+    "bc_2000": {
+        "Description": "bone conduction hearing threshold for 2000 Hz",
+        "Units": "dB HL"
+    },
+    "bc_4000": {
+        "Description": "bone conduction hearing threshold for 4000 Hz",
+        "Units": "dB HL"
+    },
+    "bc_8000": {
+        "Description": "bone conduction hearing threshold for 8000 Hz",
+        "Units": "dB HL"
+    },
+    "notes": {
+        "Description": "Notes about which subjects to exclude"
+    }
+}

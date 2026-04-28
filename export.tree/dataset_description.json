@@ -1,0 +1,20 @@
+{
+    "Name": "Bone conducted responses using the parallel auditory brainstem response (pABR) paradigm",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Melissa J. Polonenko",
+        "Ross K. Maddox"
+    ],
+    "Funding": [
+        "National Institute on Deafness and Other Communication Disorders (NIDCD) of the National Institutes of Health: R01 DC017962"
+    ],
+    "EthicsApprovals": [
+        "All research was performed under a single IRB protocol approved by the University of Michigan IRBMED (PI: Ross Maddox, HUM00252149) with a site-specific protocol approved by the University of Minnesota IRB (PI: Melissa Polonenko, SITE00000908 for IRBMED and SITE00001873 UMN)"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007721.v1.0.1",
+    "ReferencesAndLinks": [
+        "bioRxiv [Preprint]. 2025 Oct 7:2025.10.07.680974. doi: 10.1101/2025.10.07.680974."
+    ],
+    "License": "CC0"
+}
