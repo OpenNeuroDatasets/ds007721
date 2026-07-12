@@ -1,0 +1,20 @@
+{
+    "TaskName": "ac",
+    "Manufacturer": "Brain Products",
+    "PowerLineFrequency": 60,
+    "SamplingFrequency": 10000.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 3818.9799,
+    "RecordingType": "continuous",
+    "EEGReference": "placed on FCz",
+    "EEGGround": "placed on Fpz",
+    "EEGPlacementScheme": "n/a",
+    "EEGChannelCount": 3,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0,
+    "ManufacturersModelName": "actiCHamp Plus with EP-PreAmp",
+    "SoftwareVersions": "BrainVision Recorder Vers. 1.24.0101"
+}
