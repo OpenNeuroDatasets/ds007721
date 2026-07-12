@@ -1,0 +1,103 @@
+
+README
+------
+Details related to access to the data
+-------------------------------------
+Please contact the following author for further information:
+    Melissa Polonenko(email: mpolonen@umn.edu)
+
+Overview
+--------
+This is the dataset for the paper
+Polonenko MJ & Maddox RK (2026), with citation listed below.
+
+Ear and Hearing:
+Polonenko, MJ, & Maddox, RK. Bone conducted responses using the parallel
+auditory brainstem response (pABR) paradigm. Accepted March 27, 2026.
+
+BioRxiv: 
+Polonenko, MJ, & Maddox, RK. Bone conducted responses using the parallel
+auditory brainstem response (pABR) paradigm. bioRxiv [Preprint].
+2025 Oct 7:2025.10.07.680974. doi: 10.1101/2025.10.07.680974.
+
+Data was collected from October to November 2024.
+
+Aim: This study aimed to confirm the feasibility of bone conduction pABR.
+1) Create normative values for bone conducted pABR stimuli.
+2) Compare ABRs to air- and bone-conducted stimuli.
+
+The details of the experiment can be found in the bioRxiv pre-print and article
+cited above. 
+
+Stimuli for EEG:
+    pABR stimuli with 500, 1000, 2000, 4000, 8000 Hz tone pips. 
+    AC only: dichotic presentation with 40 Hz stimulation rate
+    BC: BC stimuli at 40 Hz presentation rate; contralateral masking presented
+        via AC at 400 Hz stimulation rate
+    Levels: 20, 40, 60, 70, 50, 30 dB peSPL
+    600 x 1 s trials for each level for each task (AC, BC)
+    Total of 3,600 trials for each task x 2 tasks = 7,200 trials total
+    Total of 60 minutes per task for a total of 120 minutes EEG recording.
+
+Stimuli for BEH:
+    pABR stimuli with 500, 1000, 2000, 4000, 8000 Hz tone pips
+    Tone pips presented separately
+    Stimulation rates: 20, 40, 60, 80 Hz
+
+The code for analyses is available in this dataset.
+
+Format
+------
+The EEG dataset is formatted according to the EEG Brain Imaging Data Structure.
+It  includes EEG recording in raw brainvision format (.eeg, .vhdr, .vmrk)
+and stimuli files in format of .hdf5. The stimuli files contain the audio ('x') 
+and the pulses ('x_pulse'), the latter of which is used to create the pulse
+inds for the regressors [take indices where abs(x_pulse) > 0.5] in the cross-
+correlation.
+
+Generally, you can find detailed event data in the .tsv files and descriptions
+in the accompanying .json files. Raw eeg files are provided in the Brain
+Products format.
+
+The BEH dataset has a .log and .tab file with the data from the trackers that
+can be recontructed using the expyfun package. This data is provided on GitHub
+at https://github.com/polonenkolab/pabr_bc_poc
+
+
+Participants
+------------
+22 participants, mean ± SD age of 22.8 ± 2.7 years (19-31 years)
+Note: participants 15 & 21 do not have EEG data; 
+      participants 3 & 4 do not have BEH data
+
+Inclusion criteria:
+    1) Age between 18-40 years
+    2) Normal hearing: audiometric thresholds <25 dB HL from 500 to 8000 Hz
+
+Please see participants.tsv for more information.
+
+Apparatus
+---------
+Participants sat in a darkened sound-isolating booth and rested while listening
+to the stimuli. They were encouraged to sleep. Stimuli were presented through
+ER-2 insert earphones (AC) and a B-81 vibrator (BC) plugged into an RME
+Digiface USB digital sound card. Custom python scripts using expyfun were used
+to control the experiment and stimulus presentation.
+
+Details about the experiment
+----------------------------
+For a detailed description of the task, see Polonenko & Maddox (2026) and the
+supplied `task-f0s_eeg.json` file. The levels for each task were interleaved
+interleaved. 
+
+Trigger onset times are not corrected for the delay of the insert earphones,
+but the tsv files have both the uncorrected and corrected samples.
+Triggers with values of "1" were recorded to the onset of the 1 s audio, and
+shortly after triggers with values of "4" or "8" were stamped to indicate the
+which of the runs (levels) and tokens was played. This was done by converting
+the decimal trial number to bits, denoted b, then calculating 2 ** (b + 2).
+We've specified the metadata of the events in each of the '*_eeg_events.tsv"
+file, which is sufficient to know which trial corresponded to run and which
+stimulus file to use and which token index to use.
+
+
